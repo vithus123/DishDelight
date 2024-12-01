@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#451952"> <!-- Background color -->
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="324dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="23dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_background"
+        android:hint="Search"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#B3B3B3"
+        android:textSize="16sp" />
+
+    <!-- Provinces Grid -->
+    <GridLayout
+        android:id="@+id/gridProvinces"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/etSearch"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:orientation="horizontal">
+
+        <!-- Province 1 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 2 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 3 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 4 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 4"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 5 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 5"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 6 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 6"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 7 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 7"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 8 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 8"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Province 9 -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:text="Province 9"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </GridLayout>
+
+    <!-- Home Icon -->
+
+    <!-- Next Page Arrow -->
+
+    <ImageView
+        android:id="@+id/ivHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="-201dp"
+        android:src="@drawable/ic_home" />
+
+    <ImageView
+        android:id="@+id/ivNextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+         />
+
+</RelativeLayout>
